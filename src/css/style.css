@@ -1,73 +1,218 @@
-/*
-Error: Invalid CSS after "        jcsp": expected "{", was "}"
-        on line 8 of C:/Users/User/Desktop/JS/PULSE/src/sass/blocks/_advantages.scss
-        from line 14 of C:\Users\User\Desktop\JS\PULSE\src\sass\style.scss
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif; }
 
-3:     background-color: #F6F6F6;
-4:     &__wrapper {
-5:         margin-top: 60px;
-6:         display: flex;
-7:         jcsp
-8:     }
-9: }
+.container {
+  max-width: 950px;
+  margin: 0 auto; }
 
-Backtrace:
-C:/Users/User/Desktop/JS/PULSE/src/sass/blocks/_advantages.scss:8
-C:\Users\User\Desktop\JS\PULSE\src\sass\style.scss:14
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"        jcsp\": expected \"{\", was \"}\"\A         on line 8 of C:/Users/User/Desktop/JS/PULSE/src/sass/blocks/_advantages.scss\A         from line 14 of C:\Users\User\Desktop\JS\PULSE\src\sass\style.scss\A \A 3:     background-color: #F6F6F6;\A 4:     &__wrapper {\A 5:         margin-top: 60px;\A 6:         display: flex;\A 7:         jcsp\A 8:     }\A 9: }"; }
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../img/main.jpg) center center/cover no-repeat; }
+  .promo__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 90px; }
+  .promo__header {
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 42px; }
+  .promo__subheader {
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-top: 17px; }
+  .promo__icons {
+    margin-top: 65px;
+    width: 425px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .promo__icon {
+    width: 108px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF; }
+    .promo__icon img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  .promo__link {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF; }
+    .promo__link a {
+      color: #FFFFFF;
+      text-decoration: none; }
+      .promo__link a:hover {
+        color: #e9967a;
+        text-decoration: underline; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header__logo {
+    width: 250px; }
+    .header__logo img {
+      width: 100%; }
+  .header__official {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center; }
+    .header__official span {
+      display: block;
+      font-size: 18px; }
+  .header__phone {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF; }
+    .header__phone:hover {
+      color: #e9967a;
+      text-decoration: none; }
+  .header__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+
+.button {
+  border-radius: 5px;
+  background-color: #b22222;
+  width: 153px;
+  height: 32px;
+  border: none;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+  .button_main {
+    margin-top: 67px;
+    width: 303px;
+    height: 54px;
+    font-size: 17px;
+    line-height: 25px; }
+  .button_submit {
+    width: 100%;
+    height: 58px;
+    font-size: 16px; }
+
+.advantages {
+  padding: 70px 0 80px 0;
+  background-color: #F6F6F6; }
+  .advantages__wrapper {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .advantages__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .advantages__subtitle {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0D0D0D; }
+  .advantages__descr {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #0D0D0D; }
+    .advantages__descr a {
+      color: #b22222;
+      text-decoration: underline; }
+      .advantages__descr a:hover {
+        color: #e9967a;
+        text-decoration: none; }
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #0D0D0D;
+  text-transform: uppercase; }
+  .title_left {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: left; }
+
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url(../img/cons_bg.jpg) center center/cover no-repeat; }
+  .consultation__descr {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 18px; }
+
+.feed-form {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px; }
+  .feed-form input {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B; }
+    .feed-form input:nth-child(3) {
+      margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
