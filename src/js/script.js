@@ -47,4 +47,37 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn('slow');
       });
     });
+
+    function validateForms(form){
+      $(form).validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 2
+          },
+            phone: "required",
+            email: {
+              required: true,
+              email: true
+            }
+          },
+          messages: {
+            name: {
+              required: "Bведите свое имя",
+              minlength: jQuery.validator.format("Введите {0} символа!")
+            },
+              phone: "Bведите номер телефона",
+              email: {
+                required: "Bведите адрес эл.почты",
+                email: "Неправильно введен адрес"
+            }
+          }
+      });
+  };
+
+  validateForms('#consultation-form');
+  validateForms('#consultation form');
+  validateForms('#order form');
+
+  $('input[name=phone]').mask("+7(999)999-99-99");
   });

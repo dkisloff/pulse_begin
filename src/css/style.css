@@ -195,6 +195,13 @@
     color: #FFFFFF;
     text-align: left;
     margin-top: 18px; }
+  .consultation .error {
+    border: 1px solid #e9967a;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFFFFF; }
+  .consultation label.error {
+    border: none; }
 
 .feed-form {
   margin-top: 36px;
@@ -541,6 +548,12 @@
     width: 382px;
     min-height: 143px;
     color: #0D0D0D; }
+  .modal .error {
+    border: 1px solid #e9967a;
+    text-align: center;
+    margin-bottom: 10px; }
+  .modal label.error {
+    border: none; }
 
 #consultation, #order, #thx {
   display: none; }

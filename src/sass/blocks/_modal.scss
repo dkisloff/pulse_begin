@@ -41,6 +41,14 @@
         min-height: 143px;
         color: #0D0D0D;
     }
+    .error {
+        border: 1px solid $second-color;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    label.error {
+        border: none;
+    }
 }
 
 #consultation, #order, #thx {
